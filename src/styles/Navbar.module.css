@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #228b22;
+}
+
+.brandContainer {
+  background-color: #228b22;
+}
+
+.brandLink {
+  background-color: #228b22;
+  color: white !important;
+  text-decoration: none;
+}
+
+.navLink {
+  background-color: #228b22;
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  background-color: #008000 !important;
+  color: white !important;
+}
+
+.navLink:focus {
+  background-color: #008000 !important;
+  color: white !important;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navItems {
+  background-color: #228b22;
+}
+
+.burgerButton {
+  color: white;
+}

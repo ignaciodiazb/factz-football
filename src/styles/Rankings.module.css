@@ -1,0 +1,11 @@
+.rankingsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subheading {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 0;
+}

@@ -1,0 +1,25 @@
+.subheading {
+  font-size: 1.5em;
+}
+
+.subColumnParent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.subColumnOne {
+  flex: 0 1 25%;
+}
+
+.dropdownContent {
+  max-height: 13em;
+  overflow: auto;
+}
+
+@media (max-width: 1024px) {
+  .subColumnParent {
+    display: flex;
+    flex-direction: column;
+  }
+}

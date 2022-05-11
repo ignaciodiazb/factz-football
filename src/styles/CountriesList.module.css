@@ -1,0 +1,20 @@
+.searchInput {
+  width: 50%;
+  margin: 1.5em 0;
+}
+
+.subheading {
+  font-size: 1.5em;
+}
+
+.columnsParent {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .container input {
+    width: 100%;
+  }
+}

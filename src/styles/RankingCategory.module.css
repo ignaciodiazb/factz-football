@@ -1,0 +1,50 @@
+.categoryHeading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tableContainer table thead tr th {
+  font-size: 14px;
+}
+
+.playerPhoto {
+  margin: 0;
+  padding: 0;
+}
+
+.playerName {
+  font-size: 14px;
+}
+
+.playerStatistics {
+  text-align: center !important;
+}
+
+.resultsButton {
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  background-color: #228b22;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.25em 0;
+}
+
+.resultsButton:hover {
+  background-color: #008000;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .playerPhoto {
+    width: 50%;
+  }
+}

@@ -1,0 +1,8 @@
+.competitionsContainer {
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+}

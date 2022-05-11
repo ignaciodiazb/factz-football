@@ -1,0 +1,58 @@
+.container {
+  padding: 0 5em;
+}
+
+.subheading {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.matchContainer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.dateContainer {
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.fixtureDate {
+  background-color: transparent;
+}
+
+.teamsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1em 0;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamLogo {
+  width: 100px;
+}
+
+.stadiumContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stadiumContainer p {
+  text-align: center;
+}
+
+.stadium {
+  width: 100px;
+}
